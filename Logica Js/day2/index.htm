@@ -22,11 +22,11 @@
           Qual linguagem de programação você está estudando?
           <input type="text" name="programming" id="programming">
         </label>
-        <button type="button" name="button" id="submit" onclick="mensagem()">Enviar</button>
+        <button type="button" name="button" id="submit" onclick="exibirMensagem()">Enviar</button>
       </form>
       <div id="output">
         <p id="saida"></p>
-        <button type="submit" id="next" onclick="perguntaOn()">Continuar</button>
+        <button type="submit" id="next" onclick="exibirPergunta()">Continuar</button>
       </div>
       <div id="div-quest">
         <p id="quest"></p>
@@ -34,7 +34,7 @@
           Responda <b>1</b> para <b>SIM</b> ou <b>2</b> para <b>NÃO</b>
           <input type="number" id="resposta" min="1" max="2">
         </label>
-        <button type="submit" id="next" onclick="respostaDiv()">Enviar</button>
+        <button type="submit" id="next" onclick="exibirResposta()">Enviar</button>
       </div>
       <div id="div-resposta">
         <p id="resposta-text"></p>

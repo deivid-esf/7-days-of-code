@@ -8,37 +8,34 @@ const language = form.programming;
 const pergunta = document.getElementById("quest");
 const resposta = document.getElementById("resposta");
 const respostaSaida = document.getElementById("resposta-text");
-const textoSaida = document.getElementById("saida");
+const mensagemSaida = document.getElementById("saida");
 
-function msg(name, age, language) {
-  textoSaida.textContent = `Olá ${name.value}, você tem ${age.value} anos e já está aprendendo ${language.value}!`;
+function exibirElemento(elemento, display) {
+  elemento.style.display = display;
 }
-function display(div, display) {
-  div.style.display = display;
-}
-function escrever(element, text) {
+function definirTexto(element, text) {
   element.textContent = text;
 }
-function mensagem() {
+function exibirMensagem() {
   if (nome.value != "" && age.value != "" && language.value != "") {
-    display(form, "none");
-    display(divOutput, "flex");
-    msg(nome, age, language)
+    exibirElemento(form, "none");
+    exibirElemento(divOutput, "flex");
+    definirTexto(mensagemSaida, `Olá ${nome.value}, você tem ${age.value} anos e já está aprendendo ${language.value}!`)
   } else {
     alert("Por favor, preencha todos os campos!");
   }
 }
-function perguntaOn() {
-  display(divOutput, "none");
-  display(divPergunta, "flex");
-  escrever(pergunta, `Você gosta de estudar ${language.value}?`)
+function exibirPergunta() {
+  exibirElemento(divOutput, "none");
+  exibirElemento(divPergunta, "flex");
+  definirTexto(pergunta, `Você gosta de estudar ${language.value}?`)
 }
-function respostaDiv() {
-  display(divPergunta, "none");
-  display(divResposta, "flex");
+function exibirResposta() {
+  exibirElemento(divPergunta, "none");
+  exibirElemento(divResposta, "flex");
   if (resposta.value == "1") {
-    escrever(respostaSaida, "Muito bom! Continue estudando e você terá muito sucesso.")
+    definirTexto(respostaSaida, "Muito bom! Continue estudando e você terá muito sucesso.")
   } else {
-    escrever(respostaSaida, "Ahhh, que pena... Já tentou aprender outras linguagens?")
+    definirTexto(respostaSaida, "Ahhh, que pena... Já tentou aprender outras linguagens?")
   }
 }
