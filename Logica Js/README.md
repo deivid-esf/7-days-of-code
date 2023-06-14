@@ -45,3 +45,21 @@ Ao usar corretamente os sinais de igualdade a saída esperada é a seguinte:
   As variáveis numDez e strDez tem o mesmo valor, mas tipos diferentes
 
 Para conferir, basta executar o arquivo "day1.js" com o node.js ou até mesmo copiando o código e executando-o no console de um navegador.
+
+## Dia 2 - 13/06
+O desafio do dia 2 aborda variáveis e interação com o usuário. O desafio consiste no seguinte:
+
+
+O programa deve pedir para o usuário responder 3 perguntas:
+
+- Qual o seu nome?
+- Quantos anos você tem?
+- Qual linguagem de programação você está estudando?
+
+À medida que as perguntas forem sendo feitas, a pessoa que estiver usando o programa deve responder cada uma delas.
+
+No final, o sistema vai exibir a mensagem:
+
+"Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
+
+A resolução deste desafio está no arquivo "day2".

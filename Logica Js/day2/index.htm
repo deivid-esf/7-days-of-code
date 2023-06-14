@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section>
+      <form id="form" autocomplete="off">
+        <label>
+          Qual o seu nome?
+          <input type="text" name="name" id="name">
+        </label>
+        <label>
+          Quantos anos você tem?
+          <input type="number" name="age" id="age">
+        </label>
+        <label>
+          Qual linguagem de programação você está estudando?
+          <input type="text" name="programming" id="programming">
+        </label>
+        <button type="button" name="button" id="submit" onclick="mensagem()">Enviar</button>
+      </form>
+      <div id="output">
+        <p id="saida"></p>
+        <button type="submit" id="next" onclick="perguntaOn()">Continuar</button>
+      </div>
+      <div id="div-quest">
+        <p id="quest"></p>
+        <label>
+          Responda <b>1</b> para <b>SIM</b> ou <b>2</b> para <b>NÃO</b>
+          <input type="number" id="resposta" min="1" max="2">
+        </label>
+        <button type="submit" id="next" onclick="respostaDiv()">Enviar</button>
+      </div>
+      <div id="div-resposta">
+        <p id="resposta-text"></p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
