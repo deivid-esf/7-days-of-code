@@ -1,3 +1,6 @@
+# Logica Js
+Esta pasta contém as resoluções dos desafios "#7DaysOfCode - Lógica JS 4/7".
+
 ## Dia 1 - 12/06
 - Desafio:
 O primeiro desafio foi para testar os conhecimentos dos sinais de igualdades. O comando foi o seguinte:
