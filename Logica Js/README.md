@@ -79,3 +79,15 @@ O desafio de hoje é criar os destinos possíveis de um jogo, em que o usuário 
 
 - Resolução:
 Utilizei while para criar os loops e switch para tomada de decisões. A resolução pode ser acessada na pasta day3.
+
+## Dia 4 - 15/06
+O desafio do 4º dia envolve loops e interação com usuário.
+
+- Desafio:
+
+Você deve criar um programinha que comece com um valor específico pré-definido entre 0 a 10 para o número que você vai adivinhar (7, por exemplo).
+
+Em seguida, o programa vai perguntar para você qual o valor que você deseja chutar e, caso você acerte, ele irá te parabenizar. Caso erre, ele vai te dar mais 2 tentativas.
+
+- Resolução:
+Utilizei while para criar o loop de repretição, para que o usuário tivesse mais que uma chance. Você pode ver a resolução na pasta day4.
