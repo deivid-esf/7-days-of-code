@@ -94,3 +94,10 @@ Em seguida, o programa vai perguntar para você qual o valor que você deseja ch
 
 - Resolução:
 Utilizei while para criar o loop de repretição, para que o usuário tivesse mais que uma chance. Você pode ver a resolução na pasta day4.
+
+## Day 5 - 16/06
+- Desafio:
+O desafio do 5º dia é criar um programa de lista de compras. O programa pergunta ao usuário se ele quer adicionar comida, qual a comida e em qual categoria pré-definida esse alimento se encaixa.
+
+- Rsolução:
+Tive um pouco de dificuldade em realizar esse desafio, e sei que ainda posso melhorá-lo, mas por enquanto, ele está cumprindo com a proposta. Estou melhorando minnhas habilidades em manipular arrays e gostei do resultado. Você pode observar a resolução na pasta day5.
