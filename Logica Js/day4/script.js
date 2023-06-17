@@ -1,4 +1,4 @@
-const numeroSorteado = 7;
+const numeroSorteado = Math.round(Math.random() * 50);
 let tentativas = 2;
 let erros = 0;
 
