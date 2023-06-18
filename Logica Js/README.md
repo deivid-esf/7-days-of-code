@@ -101,3 +101,10 @@ O desafio do 5º dia é criar um programa de lista de compras. O programa pergun
 
 - Rsolução:
 Tive um pouco de dificuldade em realizar esse desafio, e sei que ainda posso melhorá-lo, mas por enquanto, ele está cumprindo com a proposta. Estou melhorando minnhas habilidades em manipular arrays e gostei do resultado. Você pode observar a resolução na pasta day5.
+
+## Day 6 - 17/06
+- Desafio:
+O desafio do dia 6 foi particulamente <i>desafiador</i> para mim. O challenge era melhorar o programa do dia 5, mas dessa vez, incluindo uma função para excluir um item da lista. Eu gostei bastante do desafio, consegui aprender muitas coisas novas.
+
+- Resolução:
+Na minha resolução, eu refatorei o código do dia 5. Melhorei a organização dos arrays, utilizando lista de objetos. Utilizei bastante funções, tanto para encontrar aliementos, remover, ou formatar a exibição. Aprendi funções novas, como "map()" e "join()", e foram extremamente úteis para a melhoria do meu código. A resolução está na pasta day6.
