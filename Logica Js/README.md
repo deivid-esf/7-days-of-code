@@ -108,3 +108,10 @@ O desafio do dia 6 foi particulamente <i>desafiador</i> para mim. O challenge er
 
 - Resolução:
 Na minha resolução, eu refatorei o código do dia 5. Melhorei a organização dos arrays, utilizando lista de objetos. Utilizei bastante funções, tanto para encontrar aliementos, remover, ou formatar a exibição. Aprendi funções novas, como "map()" e "join()", e foram extremamente úteis para a melhoria do meu código. A resolução está na pasta day6.
+
+## Dia 7 - 18/06
+- Desafio:
+O último desafio é para construir um calculadora e trabalhar com funções. Basicamente, o usuário informa qual operação deseja fazer, depois digita os valores e por fim, o resultado é impresso na tela. Isso acontece dentro de um loop, e, caso o usuário não deseje mais realizar nenhuma conta, ele pode encerrar a aplicação.
+
+- Resolução:
+Utilizei while para a criação do loop, switch para a escolha da operação e if para parar a aplicação. Você pode ver a resolução na pasta day7.
